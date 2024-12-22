@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sideBar">
+        <div class="sideBar-content">
+
+
+            <div class="title">
+                <h3 class="titleH3" >Title <span>*</span></h3>
+                <div class="inputJs"></div>
+                <textarea name="" id=""" placeholder="Description" onkeyup="getValueOfDesc(this.value)"></textarea>
+            </div>
+
+
+            <div class="subTask">
+                <div class="subTask-header">
+                    <div class="stl">
+                        <img src="images/issues.png" alt="icon">
+                        <h4 >Subtask</h4>
+                    </div>
+                    <div class="str">
+                        <img src="images/new-feature.png" alt="icon" class="addCheckBox"  >
+                    </div>
+                </div>
+                <div class="subTask-check">
+                    <label>
+                        <input type="checkbox" name="business" />
+                        Hello
+                      </label>
+                      
+                      <label>
+                        <input type="checkbox" name="economy" checked />
+                        Checkbox
+                      </label>
+                      
+                </div>
+            </div>
+
+            <div class="label">
+                <div class="labelheader">
+                    <img src="images/label.png" alt="icon">
+                    <h4>Label</h4>
+                </div>
+                <div class="label-btn-cont">
+                    <div class="label-btn">
+                        <button class="btn btn-design" id="Design" onclick="btnFinder(this)">Design</button>
+                        <button class="btn btn-development" id="Development" onclick="btnFinder(this)">Development</button>
+                        <button class="btn btn-product" id="Product" onclick="btnFinder(this)">Product</button>
+                    </div>
+                    <div class="label-btn">
+                        <button class="btn btn-marketing" id="Marketing" onclick="btnFinder(this)">Marketing</button>
+                        <button class="btn btn-business" id="Business" onclick="btnFinder(this)">Business</button>
+                        <button class="btn btn-operation" id="Operation" onclick="btnFinder(this)">Operation</button>
+                    </div>
+                    <div class="invis" style="display: none;"></div>
+                </div>
+            </div>
+
+            <div class="assignee">
+                <div class="assigneeheader">
+                    <img src="images/person.png" alt="icon">
+                    <h4>Assignee</h4>
+                </div>
+                <div class="assignee-radio">
+                    <!-- <form action=""> -->
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">Taha Hosseinpour</label><br>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="css">S.h Mostafavi</label><br>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="javascript">Milad Mirzaei</label>
+                    <!-- </form>   -->
+                </div>
+            </div>
+
+            <div class="main-btn">
+                <button class="btn btn-clear">Clear All</button>
+                <button class="btn btn-create">Create Card</button>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="main-section">
+
+    <div class="mobile-responsive">
+
+        <div class="do to-do">
+
+            <div class="do-header">
+                <h3>TO DO</h3>
+            </div>
+
+
+
+        </div>
+
+        <div class="do">
+            <div class="do-header">
+                <h3>DOING</h3>
+            </div>
+
+            <div class="do-content">
+                <div class="do-title">
+                    <h4>Make a Kanban App</h4>
+                </div>
+                <div class="do-info">
+                    <p>12th june</p>
+                    <img src="images/Ellipse 125.png" alt="seperator">
+                    <p>Assigned to <span>Taha</span></p>
+                </div>
+                <div class="do-description">
+                    <p>Please use trello and designs in Dribbble as reference. And carry on...</p>
+                </div>
+                <div class="do-subtask subTask-check">
+                        <label>
+                            <input type="checkbox" name="business" />
+                            Hello
+                          </label>
+                          
+                          <label>
+                            <input type="checkbox" name="economy" checked />
+                            Checkbox
+                          </label>
+                </div>
+                <div class="do-lable">
+                    <button class="btn btn-development">Development</button>
+                    <button class="btn btn-product">Product</button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="do">
+            <div class="do-header">
+                <h3>DONE</h3>
+            </div>
+
+            <div class="do-content">
+                <div class="do-title">
+                    <h4>Make a Kanban App</h4>
+                </div>
+                <div class="do-info">
+                    <p>12th june</p>
+                    <img src="images/Ellipse 125.png" alt="seperator">
+                    <p>Assigned to <span>Taha</span></p>
+                </div>
+                <div class="do-description">
+                    <p>Please use trello and designs in Dribbble as reference. And carry on...</p>
+                </div>
+                <div class="do-subtask subTask-check">
+                        <label>
+                            <input type="checkbox" name="business" />
+                            Hello
+                          </label>
+                          
+                          <label>
+                            <input type="checkbox" name="economy" checked />
+                            Checkbox
+                          </label>
+                </div>
+                <div class="do-lable">
+                    <button class="btn btn-development">Development</button>
+                    <button class="btn btn-product">Product</button>
+                </div>
+            </div>
+
+
+        
+        </div>
+
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

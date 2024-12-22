@@ -1,0 +1,592 @@
+/* FONTS */
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+/* SIDEBAR */
+
+
+.sideBar {
+    width: 366px;
+    height: 840px;
+    padding: 24px 0px 0px 0px;
+    gap: 32px;
+    opacity: 0px;
+    background-color: white;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideBar .sideBar-content {
+    width: 318px;
+    height: 830px;  
+    position: absolute;
+    top: 10px;
+}
+
+
+/* title */
+
+.sideBar .sideBar-content .title h3 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #667085;
+    padding-top: 12px;
+    padding-left: 6px;
+}
+
+.sideBar .sideBar-content .title span {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: red;
+}
+
+.sideBar .sideBar-content .title textarea {
+    width: 284px;
+    height: 150px;
+    padding: 16px 16px 12px 16px;
+    border-radius: 8px;
+    background: #F2F4F7;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-top: 12px;
+
+}
+
+/* js style */
+
+.jsStyle{
+    width: 284px;
+    padding: 16px 16px 12px 16px;
+    border-radius: 8px;
+    background: #F2F4F7;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+/* Subtask */
+
+
+.sideBar .sideBar-content .subTask {
+    padding: 12px 6px;
+}
+
+
+.sideBar .sideBar-content .subTask .subTask-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sideBar .sideBar-content .subTask .subTask-header .stl {
+    display: flex;
+}
+
+.sideBar .sideBar-content .subTask .subTask-header .stl h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: black;
+    padding-left: 8px;
+}
+
+
+.subTask-check  {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+}
+
+
+.subTask .subTask-check .cont  {
+    display: flex;
+    flex-direction:row-reverse ;
+    justify-content: flex-end;
+}
+
+.subTask-check input[type="checkbox"] {
+    border-radius: 4.5px;
+    border: 1.4px solid ;
+    border-color: #D6D6D6;
+    width: 18px;
+    height: 18px;
+    background-color: red;
+}
+
+.subTask-check label {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #414141;
+    padding-left: 2px;
+}
+
+/* Lable */
+
+.label {
+    padding: 12px 6px;
+}
+
+.label .labelheader {
+    display: flex;
+}
+
+.label .labelheader h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: black;
+    padding-left: 8px;
+    margin-bottom: 12px;
+    padding-top: 1px;
+}
+
+.label .labelheader img {
+    width: 24px;
+    height: 24px;
+}
+
+ .label-btn {
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+ .btn {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    border-radius: 8px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.btn-design {
+    background: #F7D4FF;
+    color: #A300F4;
+}
+
+.btn-development {
+    background: #D1FADF;
+    color: #12B76A;
+}
+
+.btn-product {
+    background: #DFDAFF;
+    color: #3D24F6;
+}
+
+.btn-marketing {
+    background: #FFDFDF;
+    color: #FF1616;
+}
+
+.btn-business {
+    background: #D1FAF7;
+    color: #00DBC2;
+}
+
+.btn-operation {
+    background: #FAFAD1;
+    color: #EBBC00;
+}
+
+/* Assignee */
+
+.assignee {
+    padding: 12px 6px;
+}
+
+.assignee .assigneeheader {
+    display: flex;
+}
+
+.assignee .assigneeheader h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: black;
+    padding-left: 8px;
+    margin-bottom: 12px;
+    padding-top: 1px;
+}
+
+
+.assignee .assigneeheader img {
+    height: 24px;
+    width: 24px;
+}
+
+.assignee .assignee-radio label {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.assignee .assignee-radio input {
+    width: 18px;
+    height: 18px;
+    border-radius: 11248.87px;
+    border: 1.4px solid #D6D6D6
+}
+
+/* btn */
+
+.main-btn {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.btn-clear {
+    width: 97px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1.4px solid #FF1616;
+    background-color: white;
+    color: #FF1616;
+}
+
+.btn-create {
+    width: 209px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* Main section */
+
+.main-section {
+    width: 1095px;
+    height: 786px;
+    padding: 40px 32px 40px 32px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #F2F4F7;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-section .do {
+    width: 340px;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow-y: overlay;
+}
+
+
+.main-section .do .do-header {
+    margin-bottom: 20px;
+}
+
+.main-section .do h3 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: -0.0075em;
+    text-align: left;
+}
+
+.main-section .do .do-content {
+    background: #FCFCFD;
+    width: 275px;
+    padding: 20px;
+    gap: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0.5px 2px 0px #1018284D;
+    transform: translate(1%);
+}
+
+.do .do-title h4 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.do .do-info {
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.do .do-info img {
+    width: 4px;
+    height: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.do .do-info p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #98A2B3;
+}
+
+.do .do-info p span {
+    color: #667085;
+}
+
+.do .do-description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #98A2B3;
+}
+
+.do .do-subtask {
+    padding-bottom: 12px;
+}
+
+.mobile-responsive {
+    display: flex;
+}
+
+/* responsive design */
+
+@media only screen and (max-width : 1024px){
+    .sideBar {
+        width: 304px;
+        height: 840px;
+        padding: 24px;
+        position: fixed;
+        z-index: 1;
+    }
+    .main-section {
+        overflow-x: scroll;
+        /* width: 416px;
+        height: 982px; */
+        padding: 80px 40px 40px 40px;
+        position: absolute;
+        width: 1030px;
+        height: 840px;
+        top: 0px;
+        left: 357px;
+        z-index: 0;
+    }
+    .main-section .do {
+        width: 320px;
+        height: 685px;
+    }
+    .main-btn {
+        padding-bottom: 20px;
+    }
+}
+
+
+ @media only screen and (max-width : 768px){
+    .sideBar {
+        width: 416px;
+        height: 813px;        
+        padding: 24px;
+        position: relative;
+        z-index: 1;
+        overflow-x: hidden;
+        margin: auto;
+    }
+
+
+    .main-section {
+        z-index: 1;
+        position: absolute;
+        top: 872px;
+        width: 416px;
+        margin: auto;
+        left: 0px;
+        height: 805px;
+        padding: 80px 40px 40px 40px;
+        overflow-x: scroll;
+    }
+
+    .main-section .do {
+        width: 320px;
+        height: 685px;
+    }
+
+    .mobile-responsive {
+        width: 1000px;
+    }
+
+ }
